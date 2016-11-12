@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '4.3'
+deploy:
+  provider: npm
+  email: miyoda@gmail.com
+  api_key:
+    secure: LZm+TzWkxXXTDwJ7Ij9I72DFgsDHHzEzs5TpGXhXxiNfuISR4ZQjKGpFuAs2x2dNLj95MPR820FBW3NjYzqi/Q9JzMk51jRF9Y7/ZFVb6w2EVK1x3SuLXZsvAvDfkrHqYJUBHNI9Xy8HXBU2a+43fwCzuauyiESdDNsnurieMOz+Hk2LpG7NqORa6yQR6+KWTija3yzzFkNhA3uO0bZaaihBTrmurL2nl52i71Cl2HGyqkoYZN4UtpAgXu97Yc0+Hb36sZF0kE9dnNJg0cQLyd/MXocfyA4QhfSpXA11Vsspn/RjzHRRuz32nZ27ADPq9inQJbNIOMKL8C4Xl9VLNMpbutDggolKmJltNwhBp9wZVaWw0ACYdZlieeKJE975cDDbQZ+sALuWAooEtuwdmFjiYSbEMdugbQFxz+QOhgPeU1PHAWrfihQCKcS2fumc0bkWyq8BbL2xigLMTlNsQ3JHKQ74DuZsEM77vqSX0uLHWOLynwV2nLnNBWvXbGejigZ/HPQPhqspcU4Qf2gi2gquRyneh3N7m18HXwS55vSBi3BfBu841biDKKBTMVAbv6G+7Mvlc+Xpr1XYhxWKsrEeqZ6zHY+z9qQvzlxbE/yPmFrmLmTdK2r+jpc0iLZmf1EtzN4/r3KSI5/oPly+/d9n6z4yFgDEps/Mf/BRsis=
+  on:
+    tags: true
+    repo: miyoda/npm-template
+notifications:
+  email: false
+  slack:
+    on_success: always
+    on_failure: always
