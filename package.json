@@ -1,17 +1,17 @@
 {
-  "name": "npm-template",
+  "name": "express-middleware-apikey",
   "version": "1.0.0",
-  "description": "Template for npm modules",
-  "main": "index.js",
+  "description": "Middleware 4 verify api_key in express",
+  "main": "express-middleware-apikey.js",
   "scripts": {
-    "start": "node npm-template.js",
-    "debug": "node-debug npm-template.js",
-    "dev": "nodemon npm-template.js",
+    "start": "node express-middleware-apikey.js",
+    "debug": "node-debug express-middleware-apikey.js",
+    "dev": "nodemon express-middleware-apikey.js",
     "test": "echo \"Warn: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miyoda/npm-template.git"
+    "url": "git+https://github.com/miyoda/express-middleware-apikey.git"
   },
   "keywords": [
     "express",
@@ -27,11 +27,11 @@
   "author": "=",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miyoda/npm-template/issues"
+    "url": "https://github.com/miyoda/express-middleware-apikey/issues"
   },
-  "homepage": "https://github.com/miyoda/npm-template#readme",
+  "homepage": "https://github.com/miyoda/express-middleware-apikey#readme",
   "dependencies": {
-    
+
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
