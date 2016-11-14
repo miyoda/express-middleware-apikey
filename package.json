@@ -1,6 +1,6 @@
 {
   "name": "express-middleware-apikey",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Middleware 4 verify api_key in express",
   "main": "express-middleware-apikey.js",
   "scripts": {
